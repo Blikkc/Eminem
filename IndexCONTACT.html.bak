@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эминем - Контакты</title>
+	<link rel="stylesheet" href="./assets/styles/block_styles_08.css">
+    <!-- Добавление значка favicon -->
+    <link rel="icon" href="./assets/fav1.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div align="center">
+            <nav>
+                <ul>
+                    <li><a href="./IndexNNNN.html">Главная</a></li>
+                    <li><a href="./IndexOBW.html">Общая информация</a></li>
+                    <li><a href="./IndexHISTORY.html">История</a></li>
+                    <li><a href="./IndexFILM.html">Фильмография</a></li>
+                    <li><a href="./IndexDISCK.html">Дискография</a></li>
+                    <li><a href="./IndexSOURCE.html">Источники</a></li>
+					<li><a href="./IndexORDER.html">Заказать</a></li>
+					<li><a href="./IndexCONTACT.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div align="center">
+
+			<section class="award">
+				<h2>Контакты</h2>
+			</section>
+			
+			<section>
+                <H2 style="color: #1E90FF;">📧 Электронная почта</H2>
+                    <div>
+                        <strong>Для сотрудничества и предложений</strong>
+                        <P>Отправьте нам письмо с вашим предложением</P>
+                        <a href="mailto:Eminem@example.com?subject=Сотрудничество&body=Здравствуйте, я хотел бы обсудить сотрудничество." 
+                           class="btn">
+                            📨Написать письмо
+                        </a>
+                    </div>
+            </section>
+			<section>
+                <H2 style="color: #1E90FF;">✈️ Telegram</H2>
+                    <div>
+                        <strong>Официальный Telegram канал</strong>
+                        <P>Будьте в курсе последних новостей и анонсов</P>
+                        <a href="https://share.google/LsZrYoOSd5i2zN0V4" 
+                           class="btn">
+                            💬Подписаться на канал
+                        </a>
+                    </div>
+            </section>
+			<section>
+                <H2 style="color: #1E90FF;">🗺️ Адрес студии</H2>
+                <P><strong>Штат Мичиган, Детройт, Уэст-Джефферсон авеню</strong></P>
+                <P>Студия звукозаписи Эминема</P>
+               
+                <div class="map-container">
+                    <iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=-83.042891%2C42.348917&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoyMjQwMTA0MzE1EjlVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EsIE1pY2hpZ2FuLCBXYXluZSBDb3VudHksIERldHJvaXQiCg3jF6bCFaRTKUI%2C&source=mapframe&um=constructor%3A1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e&utm_source=mapframe&z=12.55" 
+                            width="100%" 
+                            height="100%" 
+                            frameborder="0">
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="footer">
+				<hr width="700">
+			<p>© Все права защищены. Николаичева А.Д., 3 курс, БЭР2302. 2025.</p>
+			</section>
+        </div>
+    </main>
+</body>
+</html>

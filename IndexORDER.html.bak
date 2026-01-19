@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эминем - Главная</title>
+	<link rel="stylesheet" href="./css/block_styles_06.css">
+    <!-- Добавление значка favicon -->
+    <link rel="icon" href="./img/fav1.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div align="center">
+            <nav>
+                <ul>
+                    <li><a href="./IndexNNNN.html">Главная</a></li>
+                    <li><a href="./IndexOBW.html">Общая информация</a></li>
+                    <li><a href="./IndexHISTORY.html">История</a></li>
+                    <li><a href="./IndexFILM.html">Фильмография</a></li>
+                    <li><a href="./IndexDISCK.html">Дискография</a></li>
+                    <li><a href="./IndexSOURCE.html">Источники</a></li>
+					<li><a href="./IndexORDER.html">Заказать</a></li>
+					<li><a href="./IndexCONTACT.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div align="center">
+
+            <!-- Раздел навигации -->
+            
+
+            <!-- Раздел с информацией об награде -->
+			<section class="award">
+				<h2>Заказать мерч и музыку</h2>
+			</section>
+			
+			<section>
+                <!-- Google Forms -->
+            <div class="google-form">
+                <div class="form-description">
+                    <P><strong>Заполните форму ниже, чтобы заказать официальный мерч Эминема, 
+                    музыкальные альбомы или получить информацию о концертах.</strong></P>
+                    <P>Все заказы обрабатываются в течение 24 часов.</P>
+                </div>
+                
+                <iframe class="form-frame" 
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeswpZBwkQPxIlCrt3azLQcvUMmThCD7eSZBCqAjPfpntCBjw/viewform?usp=publish-editor" width="640" height="1037" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+                </iframe>
+            </div>
+            </section>
+			
+
+           <!-- Раздел футера -->
+            <section class="footer">
+				<hr width="700">
+			<p>© Все права защищены. Николаичева А.Д., 3 курс, БЭР2302. 2025.</p>
+			</section>
+        </div>
+    </main>
+</body>
+</html>

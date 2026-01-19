@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эминем - Общая информация</title>
+	<link rel="stylesheet" href="./css/block_styles_01.css">
+    <!-- Добавление значка favicon -->
+    <link rel="icon" href="./img/fav1.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div align="center">
+            <nav>
+                <ul>
+                    <li><a href="./IndexNNNN.html">Главная</a></li>
+                    <li><a href="./IndexOBW.html">Общая информация</a></li>
+                    <li><a href="./IndexHISTORY.html">История</a></li>
+                    <li><a href="./IndexFILM.html">Фильмография</a></li>
+                    <li><a href="./IndexDISCK.html">Дискография</a></li>
+                    <li><a href="./IndexSOURCE.html">Источники</a></li>
+					<li><a href="./IndexORDER.html">Заказать</a></li>
+					<li><a href="./IndexCONTACT.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div align="center">
+
+            <!-- Раздел навигации -->
+            
+
+
+            <!-- Раздел с информацией об награде -->
+			<section class="award">
+				<h2>Общая информация</h2>
+			</section>
+			<!-- САмая первая возможно будем прикручивать класс -->
+			<section>
+				<h2>Общие сведения</h2>
+				<HR>
+				<section class="container">
+					<div class="block"><strong>Настоящее имя</strong></br>
+					 Маршалл Брюс Мэтерс III </div>
+					<div class="block"><strong>Псевдоним</strong></br>
+					 Eminem (также Slim Shady)</div>
+					<div class="block"><strong>Дата рождения</strong></br>
+					 17 октября 1972 года</div>
+					<div class="block"><strong>Место рождения</strong></br>
+					 Сент-Джозеф, штат Миссури, США</div>
+					<div class="block"><strong>Рост</strong></br>
+					173 см</div>
+					<div class="block"><strong>Знак зодиака</strong></br>
+					Весы </div>
+				</section>
+			</section>
+			
+			<section>
+			<h2>Биография</h2>
+			<HR>
+                <p>Эминем — американский рэпер, автор песен, продюсер и актёр. Он считается одним из самых влиятельных и успешных исполнителей в истории хип-хопа.</p>
+				<p>Родился в США, вырос в неблагополучных районах Детройта. Детство прошло в бедности, он часто менял школы и сталкивался с травлей. С ранних лет увлекался рэпом и участвовал в уличных баттлах, где оттачивал технику и стиль.</p>
+				<p>Карьера Эминема началась в конце 1990-х годов. Переломным моментом стало знакомство с Dr. Dre и подписание контракта с лейблом Aftermath Entertainment. Всемирную известность ему принесли альбомы The Slim Shady LP и The Marshall Mathers LP, после чего он стал культовой фигурой мировой рэп-сцены.</p>
+            </section>
+			
+			<section>
+			<h2>Творческая деятельность</h2>
+			<HR>
+                <p><strong>Музыкальные жанры: </strong></br> хип-хоп, рэп, хардкор-рэп</p>
+				<p><strong>Профессии: </strong></br> рэпер, автор песен, продюсер, актёр</p>
+				<p><strong>Инструменты: </strong></br>голос, драм-машина (MPC)</p>
+				<p><strong>Лейблы:</strong></br>Aftermath Entertainment (1998–н.в.), Interscope Records</p>
+				<p><strong>Основные хиты:</strong>
+				<ul class="ul1" >
+				<li class="li1">«My Name Is» (1999)</li>
+				<li class="li1">«The Real Slim Shady» (2000)</li>
+				<li class="li1">«Stan» (2000)</li>
+				<li class="li1">«Lose Yourself» (2002)</li>
+				<li class="li1">«Without Me» (2002)</li>
+				<li class="li1">«Rap God» (2013)</li>
+				</ul>			
+				</p>
+            </section>
+			
+			<section>
+			<h2>Основные награды</h2>
+			<HR>
+                <ul class="ul1">
+				<li class="li1">Премия Oscar — «Лучшая оригинальная песня» за Lose Yourself (2003)</li>
+				<li class="li1">Премия Grammy Awards — более 15 наград в разных категориях (2000–2015)</li>
+				<li class="li1">MTV Video Music Awards — «Лучшее хип-хоп видео» и другие номинации</li>
+				<li class="li1">Billboard Music Awards — «Артист десятилетия» (2009)</li>
+				<li class="li1">American Music Awards — «Любимый хип-хоп артист»</li>
+				<li class="li1">Включён в Зал славы рок-н-ролла (2022)</li>
+				</ul>
+            </section>
+			
+			<section>
+			<h2>Интересные факты</h2>
+			<HR>
+                <ul class="ul1">
+				<li class="li1">В начале карьеры его не принимали в хип-хоп сообществе, так как он был белым рэпером.</li>
+				<li class="li1">Эминем известен своей невероятной скоростью читки — в треке Rap God он читает до 9,6 слов в секунду.</li>
+				<li class="li1">Эминем — очень закрытый человек и редко даёт интервью.</li>
+				<li class="li1">Он обожает комиксы и даже выпускал собственные.</li>
+				<li class="li1">Он боится летать и старается избегать самолётов.</li>
+				<li class="li1">Эминем пишет тексты только на бумаге, почти не используя телефон.</li>
+				<li class="li1">Он ненавидит красные дорожки и светские мероприятия</li>
+				<li class="li1">Его первый гонорар за баттлы был $50.</li>
+				<li class="li1">Эминем никогда не курил сигареты (что редкость для рэп-сцены).</li>
+				<li class="li1">Он может работать над одним треком месяцами, переписывая строки десятки раз.</li>
+            </section>
+
+
+           <!-- Раздел футера -->
+            <section class="footer">
+				<hr width="700">
+			<p>© Все права защищены. Николаичева А.Д., 3 курс, БЭР2302. 2025.</p>
+			</section>
+        </div>
+    </main>
+</body>
+</html>

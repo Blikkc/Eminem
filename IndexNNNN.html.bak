@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эминем - Главная</title>
+	<link rel="stylesheet" href="./css/block_styles_00.css">
+    <!-- Добавление значка favicon -->
+    <link rel="icon" href="./img/fav1.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div align="center">
+            <nav>
+                <ul>
+				    <!-- Поменять названия если заменю -->
+                    <li><a href="./IndexNNNN.html">Главная</a></li>
+                    <li><a href="./IndexOBW.html">Общая информация</a></li>
+                    <li><a href="./IndexHISTORY.html">История</a></li>
+                    <li><a href="./IndexFILM.html">Фильмография</a></li>
+                    <li><a href="./IndexDISCK.html">Дискография</a></li>
+                    <li><a href="./IndexSOURCE.html">Источники</a></li>
+					<li><a href="./IndexORDER.html">Заказать</a></li>
+					<li><a href="./IndexCONTACT.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div align="center">
+
+           
+			<section class="award">
+				<h2>Eminem</h2>
+			</section>
+			
+			<section>
+                <p><em>Об этом исполнителе</em> создано столько материалов, что вряд ли мы могли бы предложить что-то оригинальное. 
+				На нашем сайте собраны проверенные сведения: история его творчества, биография, дискография и фильмография. 
+				Это демонстрационный сайт, предназначенный для отработки навыков в HTML. 
+				Детальные подробности об Эминеме ищите на специализированных сайтах.</p>
+            </section>
+			
+            <!-- Раздел с изображением и описанием популярного блюда -->
+			<section>
+				<center><img src="./img/E1.jpg" width=50% alt="Eminem photo"></center>
+			</section>
+
+           <!-- Раздел футера ЗАДАНИЕ 5 -->
+            <section class="footer>
+				<hr width="700">
+			<p>© Все права защищены. Николаичева А.Д., 3 курс, БЭР2302. 2025.</p>
+			</section>
+        </div>
+    </main>
+</body>
+</html>
