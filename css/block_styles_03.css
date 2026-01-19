@@ -112,10 +112,21 @@ section {
     margin-bottom: 30px; /* Отступ снизу */
     text-align: center; /* Текст по центру */
 	transition: box-shadow 0.3s ease;
-	
+animation: fadeInUp 2s ease forwards;
 }
 section:hover {
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.animate-section:nth-child(1) { animation-delay: 0.1s; }
+.animate-section:nth-child(2) { animation-delay: 0.2s; }
+.animate-section:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;         /* Становимся видимыми */
+    transform: translateY(0);  /* Возвращаемся на место */
+  }
 }
 
 .rating {
@@ -190,4 +201,5 @@ section:hover {
     section {
         text-align: center;
     }
+
 }
