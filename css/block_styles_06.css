@@ -1,0 +1,188 @@
+/* ============================================================
+Общий стиль для всего документа
+============================================================ */
+body {
+    font-family: 'Arial', sans-serif; /* Основной шрифт */
+    line-height: 1.6; /* Межстрочный интервал */
+    margin: 0; /* Отступы по краям */
+    padding: 20px; /* Внутренние отступы */
+    background: linear-gradient(to bottom right, #202020, #010f61); 
+    color: white; 
+}
+main {
+	max-width: 1000px;	
+	margin: 20px auto;
+}	
+
+h1, h2 {
+    text-align: center; /* Выравнивание заголовков по центру */
+    color: white; /* Зеленый цвет заголовков */
+}
+
+h1 {
+    font-size: 2.5em; /* Размер шрифта */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+h2 {
+    font-size: 1.8em; /* Размер шрифта */
+    margin-bottom: 15px; /* Отступ снизу */
+    text-transform: uppercase; /* Заглавные буквы */
+}
+
+
+p {
+    margin-bottom: 20px; /* Отступ снизу */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+
+a {
+    color: #4CAF50; /* Зеленый цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+hr {
+    border: 1px solid #ddd; /* Тонкая серая линия */
+    margin: 15px auto; /* Выравнивание по центру */
+    width: 70%; /* Ширина линии */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Убираем лишнее пространство под картинкой */
+    margin: 0 auto 30px; /* Выравнивание по центру */
+    border-radius: 8px; /* Скругленные углы */
+}
+
+header {
+    text-align: center; /* Выравнивание по центру */
+    padding: 30px 0; /* Отступы сверху и снизу */
+}
+
+nav {
+    background-color: #333; /* Темный фон */
+    padding: 15px 0; /* Отступы */
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+    margin-bottom: 20px; /* Отступ снизу */
+    text-align: center; /* Выравнивание по центру */
+}
+
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block; /* Элементы списка отображаются в строку */
+    margin: 0 10px; /* Отступы между элементами */
+}
+
+nav a {
+    color: white; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт */
+    padding: 10px 15px; /* Отступы внутри ссылок */
+    border-radius: 5px; /* Скругленные углы */
+    transition: background-color 0.3s ease; /* Плавный переход при наведении */
+	
+}
+
+nav a:hover {
+    background-color: #555; /* Темнее при наведении */
+}
+
+section {
+    background-color: #010042; /* Белый фон */
+    padding: 25px; /* Отступы */
+    border-radius: 8px; /* Скругленные углы */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  Тень */
+    margin-bottom: 30px; /* Отступ снизу */
+    text-align: center; /* Текст по центру */
+	transition: box-shadow 0.3s ease;
+	
+}
+section:hover {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.form-frame {
+            width: 100%;
+            height: 800px;
+            border: none;
+            border-radius: 8px;
+        }
+.form-description {
+            margin-bottom: 20px;
+            line-height: 1.6;
+}
+
+.award h2 {
+    color: white; /* Белый текст */
+    font-weight: bold; /* Жирный шрифт */
+    text-shadow: 1px 1px 2px #333; /* Тень текста */
+    position: relative;
+    padding: 15px 0;
+	
+}
+
+.award h2::before,
+.award h2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    left: 0;
+}
+
+.award h2::before {
+    top: -15px;
+}
+
+.award h2::after {
+    bottom: -15px;
+}
+
+.footer {
+/*	background-image: url(../menu/foot.jpg); */
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-color: #333; /* Темный фон */
+    color: white; /* Белый текст */
+    text-align: center; /* Текст по центру */
+    padding: 20px 0; /* Отступы */
+    margin-top: 30px; /* Отступ сверху */
+}
+
+.footer p {
+    text-shadow: 2px 2px 4px #000000; /* Тень для текста */
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    section {
+        text-align: center;
+    }
+}
